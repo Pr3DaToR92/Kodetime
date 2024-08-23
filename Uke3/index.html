@@ -9,7 +9,16 @@
 </head>
 
 <body>
+
+    <form action="addName">
+
+    <label style="margin: 10px;" for="addName">Legg til spiller:</label>
+    <input type="addName" id="addName" name="Legg til spiller"><br><br>
+
+    <input style="padding: 10px;margin: 10px;" type="reset" value="Reset">
+    <input style="padding: 10px;" type="submit" value="Enter">
     
+    </form>
     <!-- <img class="shadow pink" onclick="setImgTag(this)">
 
     <img class="shadow green" onclick="setImgTag(this)">
@@ -56,10 +65,9 @@
             imgTag.src = 'bilde1.jpeg';
             
         }
-        function resetImg(){
-            document.getElementById("setImgTag").reset("reset") 
-            
-            
+        function addName(){
+            return "addName"
+            console.log addName
         }
     </script>
 
