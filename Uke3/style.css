@@ -1,0 +1,49 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.shadow{
+    height: 100px;
+    width: 100px;
+    box-shadow: 7px 5px 5px
+}
+.pink {
+ background-color: pink;
+ cursor: pointer;
+}
+.green{
+ background-color: green;
+ cursor: pointer;
+}
+.blue{
+ background-color: lightblue;
+ cursor: pointer;
+}
+.yellow{
+ background-color: yellow;
+ cursor: pointer;
+}
+.purple{
+ background-color: purple;
+ cursor: pointer;
+}   
+.orange{
+ background-color: orange;
+ cursor: pointer;
+}
+.darkblue{
+background-color: blue;
+cursor: pointer;
+}
+.beige{
+background-color: beige;
+cursor: pointer;
+}
+.bisque{
+   background-color: bisque;
+   cursor: pointer;
+}
+

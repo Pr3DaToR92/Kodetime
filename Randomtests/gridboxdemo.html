@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexboxdemo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            /* overflow: hidden; */
+        }
+        .container {
+            display: grid;
+            flex-direction: row;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            align-content: start;
+            height: 100vh;
+
+        }
+        .container > div {
+            background-color: lightblue;
+            border: 2px solid blue;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>Det</div>
+        <div>var en</div>
+        <div>gang en konge</div>
+        <div>og den <br/>kongen hadde</div>
+    </div>
+</body>
+</html>
