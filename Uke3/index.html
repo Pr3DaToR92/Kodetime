@@ -10,15 +10,23 @@
 
 <body>
 
-    <form action="addName">
+    <form action="?" method="get">
 
     <label style="margin: 10px;" for="addName">Legg til spiller:</label>
     <input type="addName" id="addName" name="Legg til spiller"><br><br>
 
     <input style="padding: 10px;margin: 10px;" type="reset" value="Reset">
+    
     <input style="padding: 10px;" type="submit" value="Enter">
     
+    <hr>
+    
+    <input type="text" name="player1" id="player1">
+    
+    <input type="text" name="player2" id="player2">
+    
     </form>
+    
     <!-- <img class="shadow pink" onclick="setImgTag(this)">
 
     <img class="shadow green" onclick="setImgTag(this)">
@@ -51,6 +59,8 @@
 
         <img class="shadow bisque" onclick="setImgTag(this)">
 
+        <button onclick="start"(this)>Start</button>
+
     </div>
 
     <script>
@@ -63,11 +73,28 @@
             // Fungerer bra når en skal ha mer av samme element, denne kaller på sin egen "tag".//
         function setImgTag(imgTag){
             imgTag.src = 'bilde1.jpeg';
+                if (player1) true;
+        }
+        function setImgTag(imgTag){
+            imgTag.src = 'bilde1.jpeg';
+                if (player2) true;
+        }
+        function player1(){
+            let player1 = 1;
             
         }
-        function addName(){
-            return "addName"
-            console.log addName
+         function player2(){
+            let player2 = 2;
+        }
+        function start(startIt){
+            switch (key) {
+                case value:
+                    
+                    break;
+            
+                default:
+                    break;
+            }
         }
     </script>
 
