@@ -10,14 +10,14 @@
 
 <body>
 
-    <form action="?" method="get">
+    <form action="">
 
     <label style="margin: 10px;" for="addName">Legg til spiller:</label>
-    <input type="addName" id="addName" name="Legg til spiller"><br><br>
+    <input type="text" id="addName" name="Legg til spiller"><br><br>
 
     <input style="padding: 10px;margin: 10px;" type="reset" value="Reset">
     
-    <input style="padding: 10px;" type="submit" value="Enter">
+    <input style="padding: 10px;" type="button" onclick= "add()" value="Enter">
     
     <hr>
     
@@ -59,7 +59,7 @@
 
         <img class="shadow bisque" onclick="setImgTag(this)">
 
-        <button onclick="start"(this)>Start</button>
+        <button onclick="start">Start</button>
 
     </div>
 
@@ -71,31 +71,35 @@
 
 
             // Fungerer bra når en skal ha mer av samme element, denne kaller på sin egen "tag".//
-        function setImgTag(imgTag){
-            imgTag.src = 'bilde1.jpeg';
-                if (player1) true;
-        }
-        function setImgTag(imgTag){
-            imgTag.src = 'bilde1.jpeg';
-                if (player2) true;
-        }
-        function player1(){
-            let player1 = 1;
             
-        }
-         function player2(){
-            let player2 = 2;
-        }
-        function start(startIt){
-            switch (key) {
-                case value:
-                    
-                    break;
-            
-                default:
-                    break;
+            function setImgTag(imgTag){
+            imgTag.src = 'bilde1.jpeg';
+                
+                // if ("player1" = true);
+
             }
-        }
+        
+        function add(){
+            document.getElementById ("player1").value = 
+            document.getElementById ("addName").value;
+            document.getElementById ("addName").value = null;
+
+            if ("player1".value = "");
+            
+            else ("player2".value = "")
+
+            
+            
+            document.getElementById ("player2").value =
+            document.getElementById ("addName").value;
+
+            }
+        
+            
+
+            
+  
+   
     </script>
 
 </body>
