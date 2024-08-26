@@ -21,9 +21,9 @@
     
     <hr>
     
-    <input type="text" name="player1" id="player1">
+    <input type="text" name="p1" id="player1">
     
-    <input type="text" name="player2" id="player2">
+    <input type="text" name="p2" id="player2">
     
     </form>
     
@@ -39,7 +39,7 @@
 
     <img class="shadow orange" onclick="setImgTag(this)"> -->
 
-    <div class="grid-container">
+    <div id="images" class="grid-container">
     
         <img class="shadow pink" onclick="setImgTag(this)">
 
@@ -59,7 +59,9 @@
 
         <img class="shadow bisque" onclick="setImgTag(this)">
 
-        <button onclick="start">Start</button>
+        <button id="startGame" type="button" onclick= "startIT" >Start </button>
+        
+        <button type="button" onclick= "restartIT" >Restart</button>
 
     </div>
 
@@ -78,20 +80,41 @@
                 // if ("player1" = true);
 
             }
-        
-        function add(){
-            document.getElementById ("player1").value = 
+            
+                // Hvordan få denne til å virke? //
+
+            function add(){
+            
+            document.getElementById ("player1").value =
             document.getElementById ("addName").value;
-            document.getElementById ("addName").value = null;
+            
+                if ("player1".value = "");
+                else ("player1".value = "player1");
 
-            if ("player1".value = "");
-            
-            else ("player2".value = "")
-
-            
-            
             document.getElementById ("player2").value =
             document.getElementById ("addName").value;
+            
+                if ("player1".value = "player1");
+                else ("player2".value = "");
+            
+            document.getElementById ("addName").value = null;
+
+            
+
+            }
+            
+            
+            
+            
+            
+            
+            
+            function startIT(){
+                document.getElementById ("startGame").innerHTML;
+                console.log ("startGame");
+            }
+            function restartIT(){
+                document.getElementById ("images").innerHTML = null;
 
             }
         

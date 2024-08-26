@@ -46,4 +46,9 @@ cursor: pointer;
    background-color: bisque;
    cursor: pointer;
 }
-
+img:hover{
+    color:yellow;
+}
+img:active{
+    color: green
+}
